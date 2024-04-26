@@ -2,7 +2,6 @@
 	"name": "webtories/sylius-zasilkovna-plugin",
 	"type": "sylius-plugin",
 	"description": "Zasilkovna plugin for Sylius",
-	"version": "1.0.0",
 	"license": "MIT",
 	"require": {
 		"ext-json": "*",
