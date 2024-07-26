@@ -1,4 +1,11 @@
 function showSelectedPickupPoint(inputId, labelId, point) {
+
+	var zasilkovnaRadioButton = document.querySelector('[value="zasilkovna"]');
+	if (zasilkovnaRadioButton) {
+		zasilkovnaRadioButton.checked = true;
+	}
+
+
 	if (!!point) {
 		document.getElementById(inputId).value = JSON.stringify(point);
 
